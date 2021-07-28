@@ -1,0 +1,16 @@
+[
+{
+  "modid": "stcore170",
+  "name": "SteeleCore",
+  "description": "Library mod for my other mods",
+  "version": "1.0.0",
+  "mcversion": "1.7.10",
+  "url": "steelehook.net",
+  "updateUrl": "",
+  "authorList": ["Steele"],
+  "credits": "Just Steele",
+  "logoFile": "reznor.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
