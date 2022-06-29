@@ -19,5 +19,15 @@ public class MessageLogging {
 			player.addChatMessage(new ChatComponentText(""));
 		}
 	}
+	
+	public static void padBlankServer(int p) {
+		
+		
+		for (int i = 0; i < p; i++) {
+			MinecraftServer.getServer().getCommandManager().executeCommand(MinecraftServer.getServer(), "/say -                                                    ");
+		}
+	
+	}
+	
 
 }
