@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.steelehook.SteeleCore.SteeleCore;
+import net.steelehook.SteeleCore.Handlers.NameHandling;
 
 public class BaseBlock extends Block{
 
@@ -21,14 +22,11 @@ public class BaseBlock extends Block{
 		
 		
 		
-		this(retroNameFormatter(unlocalizedName, modID), Material.rock, 3F, 5F);
+		this(NameHandling.retroNameFormatter(unlocalizedName, modID), Material.rock, 3F, 5F);
 	}
 	
 	
-	public static String retroNameFormatter(String unlocName, String modID) {
-		String retroName = modID.toLowerCase() + ":" + unlocName;
-		return retroName;
-	}
+
 	
 
 	
