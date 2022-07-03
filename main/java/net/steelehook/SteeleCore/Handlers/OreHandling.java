@@ -16,7 +16,8 @@ public class OreHandling {
 	public static ArrayList makeList() {
 		
 		for (String n : OreDictionary.getOreNames()) {
-			if (n.startsWith("ore")) {
+			if (n.contains("ore")) {
+			//if (n.startsWith("ore")) {
 				
 				allOre.addAll(OreDictionary.getOres(n));
 				
