@@ -15,7 +15,7 @@ public class OreHandling {
 	
 	public static ArrayList makeList() {
 		
-		for (String n : OreDictionary.getOreNames()) {
+		for (String n : OreDictionary.getOreNames()) { //This is for another git test
 			if (n.contains("ore")) {
 			//if (n.startsWith("ore")) {
 				
