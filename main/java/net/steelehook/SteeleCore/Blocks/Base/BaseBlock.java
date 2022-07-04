@@ -23,6 +23,7 @@ public class BaseBlock extends Block{
 		
 		
 		this(NameHandling.retroNameFormatter(unlocalizedName, modID), Material.rock, 3F, 5F);
+		//this(NameHandling.retroNameFormatter("", modID) //Generalize for base tab
 	}
 	
 	
