@@ -5,6 +5,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.creativetab.CreativeTabs;
 import net.steelehook.SteeleCore.SteeleCore;
 import net.steelehook.SteeleCore.Handlers.NameHandling;
 
@@ -24,6 +25,7 @@ public class BaseBlock extends Block{
 		
 		this(NameHandling.retroNameFormatter(unlocalizedName, modID), Material.rock, 3F, 5F);
 		//this(NameHandling.retroNameFormatter("", modID) //Generalize for base tab
+		this.setCreativeTab(BaseTab.makeTab(modID));
 	}
 	
 	
