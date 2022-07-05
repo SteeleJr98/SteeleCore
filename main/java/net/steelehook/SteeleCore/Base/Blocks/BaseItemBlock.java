@@ -1,4 +1,4 @@
-package net.steelehook.SteeleCore.Blocks.Base;
+package net.steelehook.SteeleCore.Base.Blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
