@@ -16,7 +16,8 @@ public class MessageLogging {
 	
 	public static void padBlank(EntityPlayer player, int p) {
 		for (int i = 0; i < p; i++) {
-			player.addChatMessage(new ChatComponentText(""));
+			//player.addChatMessage(new ChatComponentText(""));
+			sendFromClient(player, "");
 		}
 	}
 	
